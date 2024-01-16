@@ -231,7 +231,7 @@ Albuquerque`;
 
 let arrLyrics = lyrics.split(/\n/);
 
-let words = 10;
+let words = 1000;
 let currentWords = 0;
 let output = []
 
@@ -249,3 +249,10 @@ while (currentWords < words) {
 }
 
 l(output.join(' '));
+
+//HTML stuff
+
+let numOfWords = document.getElementById("nubOfWords");
+let heresYerTxt = document.getElementById("heresYerTxt");
+let outputTxt = document.getElementById("outputTxt");
+
