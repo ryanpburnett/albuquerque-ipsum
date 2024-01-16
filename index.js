@@ -231,8 +231,21 @@ Albuquerque`;
 
 let arrLyrics = lyrics.split(/\n/);
 
-let pick = arrLyrics[Math.floor(Math.random() * arrLyrics.length)];
-let lengthPick = pick.split(" ").length;
+let words = 10;
+let currentWords = 0;
+let output = []
 
-l(pick)
-l(lengthPick)
+while (currentWords < words) {
+
+    let pushLyrics = arrLyrics[Math.floor(Math.random() * arrLyrics.length)];
+    let lengthPushLyrics = pushLyrics.split(" ").length;
+
+    output.push(pushLyrics);
+    currentWords += lengthPushLyrics;
+
+    l(pushLyrics)
+    l(lengthPushLyrics)
+    l(output)
+}
+
+l(output.join(' '));
