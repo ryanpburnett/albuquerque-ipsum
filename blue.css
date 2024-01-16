@@ -27,3 +27,12 @@ h3 {
 p {
     font-size: 20px;
 }
+
+a {
+    color: gray
+}
+
+.margin {
+    display: inline-block;
+    margin-top: 30px;
+}
