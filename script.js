@@ -231,18 +231,14 @@ Albuquerque`;
 
 let arrLyrics = lyrics.split(/\n/);
 
-let words = 10000;
 let currentWords = 0;
 let output = []
-
-
 
 //HTML stuff
 
 let numOfWords = document.getElementById("numOfWords");
 let heresYerTxt = document.getElementById("heresYerTxt");
 let outputTxt = document.getElementById("outputTxt");
-let submit = document.getElementById("submit");
 
 const albuquerqize = () => {
 
