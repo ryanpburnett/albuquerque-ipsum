@@ -250,7 +250,7 @@ const albuquerqize = () => {
 
     heresYerTxt.style.opacity = 100;
 
-    while (currentWords < words) {
+    while (currentWords < numOfWords.value) {
 
         let pushLyrics = arrLyrics[Math.floor(Math.random() * arrLyrics.length)];
         let lengthPushLyrics = pushLyrics.split(" ").length;
