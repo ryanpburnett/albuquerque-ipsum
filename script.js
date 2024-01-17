@@ -260,8 +260,8 @@ const albuquerqize = () => {
     
     }
 
-    let retunValue = output.join(' ')
+    let returnValue = output.join(' ')
 
-    l(retunValue);
-    return retunValue;
+    l(returnValue);
+    outputTxt.innerHTML = returnValue
 }
