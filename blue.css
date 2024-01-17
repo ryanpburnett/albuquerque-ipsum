@@ -46,6 +46,10 @@ input {
     margin-top: 30px;
 }
 
+#heresYerTxt {
+    opacity: 0;
+}
+
 #submit {
     color: white;
     background-color: purple;

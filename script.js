@@ -244,8 +244,6 @@ let heresYerTxt = document.getElementById("heresYerTxt");
 let outputTxt = document.getElementById("outputTxt");
 let submit = document.getElementById("submit");
 
-heresYerTxt.style.opacity = 0;
-
 const albuquerqize = () => {
 
     heresYerTxt.style.opacity = 100;
