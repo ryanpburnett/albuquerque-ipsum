@@ -232,13 +232,15 @@ Albuquerque`;
 let arrLyrics = lyrics.split(/\n/);
 
 let currentWords = 0;
-let output = []
+let output = [];
 
 //HTML stuff
 
 let numOfWords = document.getElementById("numOfWords");
 let heresYerTxt = document.getElementById("heresYerTxt");
 let outputTxt = document.getElementById("outputTxt");
+
+// TO FIX: generator will not generate new text unless browser is refreshed
 
 const albuquerqize = () => {
 
@@ -257,5 +259,5 @@ const albuquerqize = () => {
     let returnValue = output.join(' ')
 
     l(returnValue);
-    outputTxt.innerHTML = returnValue
+    outputTxt.innerHTML = returnValue;
 }
