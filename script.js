@@ -239,12 +239,16 @@ let output = []
 
 //HTML stuff
 
-// let numOfWords = document.getElementById("nubOfWords");
-// let heresYerTxt = document.getElementById("heresYerTxt");
-// let outputTxt = document.getElementById("outputTxt");
-// let submit = document.getElementById("submit");
+let numOfWords = document.getElementById("numOfWords");
+let heresYerTxt = document.getElementById("heresYerTxt");
+let outputTxt = document.getElementById("outputTxt");
+let submit = document.getElementById("submit");
+
+heresYerTxt.style.opacity = 0;
 
 const albuquerqize = () => {
+
+    heresYerTxt.style.opacity = 100;
 
     while (currentWords < words) {
 
