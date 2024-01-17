@@ -235,20 +235,7 @@ let words = 10000;
 let currentWords = 0;
 let output = []
 
-while (currentWords < words) {
 
-    let pushLyrics = arrLyrics[Math.floor(Math.random() * arrLyrics.length)];
-    let lengthPushLyrics = pushLyrics.split(" ").length;
-
-    output.push(pushLyrics);
-    currentWords += lengthPushLyrics;
-
-    l(pushLyrics)
-    l(lengthPushLyrics)
-    l(output)
-}
-
-l(output.join(' '));
 
 //HTML stuff
 
@@ -257,3 +244,20 @@ l(output.join(' '));
 // let outputTxt = document.getElementById("outputTxt");
 // let submit = document.getElementById("submit");
 
+const albuquerqize = () => {
+
+    while (currentWords < words) {
+
+        let pushLyrics = arrLyrics[Math.floor(Math.random() * arrLyrics.length)];
+        let lengthPushLyrics = pushLyrics.split(" ").length;
+    
+        output.push(pushLyrics);
+        currentWords += lengthPushLyrics;
+    
+    }
+
+    let retunValue = output.join(' ')
+
+    l(retunValue);
+    return retunValue;
+}
