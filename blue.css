@@ -1,6 +1,7 @@
 body {
     /* gradient */
-    background: linear-gradient(241deg, rgba(54,50,126,1) 0%, rgba(33,33,172,1) 63%, rgba(21,66,189,1) 100%);
+    background: rgb(240,167,9);
+    background: linear-gradient(90deg, rgba(240,167,9,1) 0%, rgba(235,116,6,1) 35%);
     /* fixes background height */
     height: 100%;
     background-repeat: no-repeat;
@@ -34,6 +35,10 @@ p {
     font-size: 20px;
 }
 
+img {
+    width: 15em;
+}
+
 span {
     font-size: 20px;
     margin-right: 20px;
@@ -60,4 +65,16 @@ input {
     color: white;
     background-color: purple;
     border-radius: 7px;
+}
+
+@media screen and (max-width: 600px) {
+    img {
+        float: none;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    img {
+        float: right;
+    }
 }
