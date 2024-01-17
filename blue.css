@@ -67,6 +67,16 @@ input {
     border-radius: 7px;
 }
 
+#sig {
+    margin: 5px;
+    font-family: Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+    color: navy;
+    text-align: right;
+    margin-bottom: 50px;
+}
+
 @media screen and (max-width: 600px) {
     img {
         float: none;
