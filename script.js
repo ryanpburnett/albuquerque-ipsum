@@ -255,4 +255,5 @@ l(output.join(' '));
 // let numOfWords = document.getElementById("nubOfWords");
 // let heresYerTxt = document.getElementById("heresYerTxt");
 // let outputTxt = document.getElementById("outputTxt");
+// let submit = document.getElementById("submit");
 

@@ -28,11 +28,26 @@ p {
     font-size: 20px;
 }
 
+span {
+    font-size: 20px;
+    margin-right: 20px;
+}
+
 a {
     color: gray
+}
+
+input {
+    width: 3em;
 }
 
 .margin {
     display: inline-block;
     margin-top: 30px;
+}
+
+#submit {
+    color: white;
+    background-color: purple;
+    border-radius: 7px;
 }
