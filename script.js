@@ -256,7 +256,7 @@ const albuquerqize = () => {
     
     }
 
-    let returnValue = output.join(' ')
+    let returnValue = output.join(' ');
 
     l(returnValue);
     outputTxt.innerHTML = returnValue;
