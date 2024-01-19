@@ -63,14 +63,14 @@ input {
     margin-bottom: 0;
 }
 
-#heresYerTxt {
-    opacity: 0;
-}
-
 #submit {
     color: white;
     background-color: purple;
     border-radius: 7px;
+}
+
+#heresYerTxt {
+    opacity: 0;
 }
 
 #sig {
