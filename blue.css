@@ -15,7 +15,6 @@ body {
 
 h1 {
     font-size: 35px;
-    margin-bottom: 0;
 }
 
 h2 {
@@ -28,7 +27,6 @@ h3 {
 
 h5 {
     font-size: 14.8px;
-    margin-top: 0;
 }
 
 p {
@@ -55,6 +53,14 @@ input {
 .margin {
     display: inline-block;
     margin-top: 15px;
+}
+
+.noMarginTop {
+    margin-top: 0;
+}
+
+.noMarginBottom {
+    margin-bottom: 0;
 }
 
 #heresYerTxt {
