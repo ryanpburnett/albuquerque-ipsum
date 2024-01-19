@@ -73,6 +73,10 @@ input {
     opacity: 0;
 }
 
+#outputTxt {
+    width: 99%;
+}
+
 #sig {
     margin: 5px;
     font-family: Courier, monospace;
